@@ -1,0 +1,205 @@
+.App {
+  min-height: 100vh;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.border-dashed {
+  border: 2px dashed #dee2e6 !important;
+  border-radius: 0.5rem;
+}
+
+.border-dashed:hover {
+  border-color: #0d6efd !important;
+  background-color: rgba(13, 110, 253, 0.05);
+}
+
+.upload-area {
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.upload-area:hover {
+  background-color: rgba(13, 110, 253, 0.05);
+}
+
+.bg-white {
+  backdrop-filter: blur(10px);
+}
+
+/* Loading animation */
+.progress-bar-animated {
+  animation: progress-bar-stripes 1s linear infinite;
+}
+
+@keyframes progress-bar-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 0;
+  }
+}
+
+/* Card enhancements */
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+/* Icon animations */
+i.fa-3x {
+  transition: all 0.3s ease;
+}
+
+.upload-area:hover i.fa-3x {
+  transform: scale(1.1);
+  color: #0d6efd !important;
+}
+
+/* Button enhancements */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Badge styles */
+.badge {
+  font-size: 0.75em;
+}
+
+/* Result container */
+.result-container {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.result-text {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.result-text h1, .result-text h2, .result-text h3 {
+  color: #212529;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.result-text h1 {
+  font-size: 1.4rem;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 0.5rem;
+}
+
+.result-text h2 {
+  font-size: 1.2rem;
+  color: #495057;
+}
+
+.result-text h3 {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.result-text ul, .result-text ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.result-text li {
+  margin: 0.3rem 0;
+  line-height: 1.5;
+}
+
+.result-text strong {
+  color: #212529;
+  font-weight: 600;
+}
+
+.result-text p {
+  margin: 0.8rem 0;
+  line-height: 1.6;
+}
+
+.result-text code {
+  background: #f8f9fa;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  color: #e83e8c;
+  border: 1px solid #dee2e6;
+}
+
+.result-text pre {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1rem 0;
+  border: 1px solid #dee2e6;
+}
+
+.result-text blockquote {
+  border-left: 4px solid #0d6efd;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #6c757d;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1.5rem !important;
+  }
+  
+  .upload-area {
+    min-height: 150px !important;
+  }
+  
+  .result-text {
+    max-height: 300px !important;
+  }
+}
+
+/* Font Awesome icons fallback */
+.fas::before {
+  font-weight: 900;
+}
+
+/* Add some custom utility classes */
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
