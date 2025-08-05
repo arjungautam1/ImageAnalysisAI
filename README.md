@@ -61,4 +61,4 @@ The app uses the `meta-llama/llama-4-scout-17b-16e-instruct` model for image ana
 - Make sure your Groq API key is correctly set in the `.env` file
 - Ensure the API key has sufficient credits/quota
 - Check the browser console for any error messages
-- Verify that the image file is a supported format (JPEG, PNG, etc.) 
+- Verify that the image file is a supported format (JPEG, PNG, etc.) # ImageAnalysisAI
