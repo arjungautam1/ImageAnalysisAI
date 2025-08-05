@@ -1,4 +1,4 @@
-# Groq Image Recognition Web App
+# Arjun Image Analysis
 
 A React web application that uses the Groq API to analyze and describe images using AI.
 

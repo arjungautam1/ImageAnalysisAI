@@ -1,7 +1,7 @@
 {
-  "name": "groq-image-recognition-web",
+  "name": "arjun-image-analysis",
   "version": "1.0.0",
-  "description": "React web app for image recognition using Groq API",
+  "description": "Arjun Image Analysis - React web app for image recognition using Groq API",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.7",

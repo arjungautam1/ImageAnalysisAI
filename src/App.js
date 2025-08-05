@@ -64,7 +64,7 @@ function App() {
               <Card.Header className="bg-primary text-white text-center py-3">
                 <h2 className="mb-1">
                   <i className="fas fa-eye me-2"></i>
-                  Groq Image Recognition
+                  Arjun Image Analysis
                 </h2>
                 <p className="mb-0 opacity-75">Upload an image to analyze its contents using AI</p>
               </Card.Header>
